@@ -5,10 +5,9 @@ import os
 os.system("clear")
 banner="""
 ######################################
-#Sinqle DDoS V1.0                    #
-#Coded By SinqleCarboNN Ulaşş        #
+#KwejN DDoS V1.0                    #
+#Coded By Ulaş "KwejN" Arslan       #
 ######################################
-
 """
 print(banner)
 
